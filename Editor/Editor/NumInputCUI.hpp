@@ -1,5 +1,5 @@
 #pragma once
-#include "NumInput.h"
+#include "NumInput.hpp"
 class NumInputCUI : NumInput{
 public:
 	NumInputCUI();
