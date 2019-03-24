@@ -3,10 +3,10 @@
 class NumInput;
 class StrInput;
 
-class Editor{
+class Manager{
 public:
-	Editor();
-	~Editor();
+	Manager();
+	~Manager();
 
 	virtual int update();
 

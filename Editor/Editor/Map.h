@@ -7,7 +7,6 @@ class Map
 public:
 	Map();
 	~Map();
-
 	
 	int& getSizex() {
 		return mSizex;

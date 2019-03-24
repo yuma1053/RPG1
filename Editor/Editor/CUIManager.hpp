@@ -1,14 +1,14 @@
 #pragma once
-#include "Editor.h"
+#include "Manager.hpp"
 
 class MapEditor;
 class ItemEditor;
 class EnemyEditor;
 
-class CUIEditor : public Editor{
+class CUIManager : public Manager{
 public:
-	CUIEditor();
-	~CUIEditor();
+	CUIManager();
+	~CUIManager();
 
 	int update() override;
 
