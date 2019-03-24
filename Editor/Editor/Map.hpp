@@ -29,6 +29,6 @@ private:
 	int **mChip;
 	int *mAlphaChip;
 
-	std::vector<Event> ev;
+	//std::vector<Event> ev;
 };
 

@@ -1,12 +1,7 @@
 #include "CUIManager.hpp"
+#include <Siv3D.hpp>
 
-
-
-CUIManager::CUIManager()
-{
-}
-
-
-CUIManager::~CUIManager()
-{
+int CUIManager::update() {
+	Graphics::SetBackground(Palette::Gray);
+	return 0;
 }

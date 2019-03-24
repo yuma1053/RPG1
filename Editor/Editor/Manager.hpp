@@ -5,10 +5,9 @@ class StrInput;
 
 class Manager{
 public:
-	Manager();
-	~Manager();
 
-	virtual int update();
+
+	virtual int update() = 0;
 
 private:
 	NumInput *mNumInput;
