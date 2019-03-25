@@ -20,6 +20,7 @@ bool StrInputCUI::input(String &str) {
 	}
 
 	if (str.length > 0 && str[str.length - 1] == L'\n') {
+		str.erase(str.length - 1);
 		return true;
 	}
 	else {

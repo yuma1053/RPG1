@@ -165,6 +165,7 @@
     <ClCompile Include="CUIManager.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Map.cpp" />
+    <ClCompile Include="NumInputCUI.cpp" />
     <ClCompile Include="StrInputCUI.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -283,6 +284,8 @@
     <ClInclude Include="CUIManager.hpp" />
     <ClInclude Include="Manager.hpp" />
     <ClInclude Include="Map.hpp" />
+    <ClInclude Include="NumInput.hpp" />
+    <ClInclude Include="NumInputCUI.hpp" />
     <ClInclude Include="StrInput.hpp" />
     <ClInclude Include="StrInputCUI.hpp" />
   </ItemGroup>

@@ -5,21 +5,16 @@ Font CUIManager::mFont;
 String CUIManager::mLog;
 
 int CUIManager::update() {
-	static const Font font(10);
+
 	static String str;
 	Graphics::SetBackground(Palette::Gray);
 
-	try {
+	if (mNumInput->input(str)) {
+		addLog(str);
+		str.clear();
+	}
 
-		if (mStrInput->input(str)) {
-			mLog += str;
-			str.clear();
-		}
-		font(mLog).draw();
-	}
-	catch (...) {
-		Println(L"ƒGƒ‰[‚ª”­¶‚µ‚Ü‚µ‚½");
-	}
+	mFont(mLog).draw();
 
 	return 0;
 }
