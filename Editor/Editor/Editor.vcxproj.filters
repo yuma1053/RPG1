@@ -87,7 +87,7 @@
     <ClCompile Include="CUIManager.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="NumInputCUI.cpp">
+    <ClCompile Include="StrInputCUI.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
@@ -413,10 +413,10 @@
     <ClInclude Include="Map.hpp">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="NumInput.hpp">
+    <ClInclude Include="StrInputCUI.hpp">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="NumInputCUI.hpp">
+    <ClInclude Include="StrInput.hpp">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>
