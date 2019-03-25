@@ -1,9 +1,8 @@
 ﻿cl : コマンド ライン warning D9030: '/Gm' はマルチプロセシングと互換性がありません。/MP スイッチを無視します
-  StrInputCUI.cpp
-  Main.cpp
+  NumInputCUI.cpp
   CUIManager.cpp
 c:\users\siver\source\repos\rpg_project\editor\editor\cuimanager.cpp(5): warning C4592: 'mLog': シンボルが動的に初期化されます (実装の制限)
   コードを生成中...
-     ライブラリ C:\Users\siver\source\repos\RPG_Project\Editor\Debug\Editor.lib とオブジェクト C:\Users\siver\source\repos\RPG_Project\Editor\Debug\Editor.exp を作成中
+c:\users\siver\source\repos\rpg_project\editor\editor\numinputcui.cpp(30): warning C4715: 'NumInputCUI::input': 値を返さないコントロール パスがあります。
   Editor.vcxproj -> C:\Users\siver\source\repos\RPG_Project\Editor\Debug\Editor.exe
   Editor.vcxproj -> C:\Users\siver\source\repos\RPG_Project\Editor\Debug\Editor.pdb (Full PDB)

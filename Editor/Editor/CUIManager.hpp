@@ -1,6 +1,7 @@
 #pragma once
 #include "Manager.hpp"
 #include "StrInputCUI.hpp"
+#include "NumInputCUI.hpp"
 
 #define BAR_SPACE 3
 
@@ -12,7 +13,7 @@ class CUIManager : public Manager{
 public:
 
 	CUIManager() :
-		Manager(nullptr, new StrInputCUI())
+		Manager(new NumInputCUI(), new StrInputCUI())
 	{
 		mLog = L"";
 		mFont = Font(10);
