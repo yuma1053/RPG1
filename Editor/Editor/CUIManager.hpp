@@ -19,6 +19,10 @@ public:
 		mFont = Font(10);
 	}
 
+	static void addLog(String& str) {
+		mLog += str + L'\n';
+	}
+
 	static String& getLog() {
 		return mLog;
 	}
