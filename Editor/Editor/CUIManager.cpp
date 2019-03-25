@@ -9,7 +9,7 @@ int CUIManager::update() {
 	static String str;
 	Graphics::SetBackground(Palette::Gray);
 
-	if (mNumInput->input(str)) {
+	if (mStrInput->input(str)) {
 		mLog += str;
 		str.clear();
 	}
