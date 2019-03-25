@@ -6,12 +6,14 @@ class StrInput;
 class Manager{
 public:
 
+	Manager(NumInput *numInput, StrInput *strInput) :
+		mNumInput(numInput), mStrInput(strInput)
+	{}
 
 	virtual int update() = 0;
 
-private:
+protected:
 	NumInput *mNumInput;
-	StrInput *mStrIntput;
+	StrInput *mStrInput;
 
 };
-
